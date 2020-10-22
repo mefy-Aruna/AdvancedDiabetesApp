@@ -1,0 +1,87 @@
+@font-face{font-family:'HelveticaNeue Light';src:url('../webfont/HelveticaNeue\ Light.ttf') format('truetype');}
+@font-face{font-family:'HelveticaNeue Thin';src:url('../webfont/HelveticaNeue\ Thin.ttf') format('truetype');}
+@font-face{font-family:'Muli';src:url('../webfont/Muli.ttf') format('truetype');}
+@font-face{font-family:'Roboto-Regular';src:url('../webfont/Roboto-Regular.ttf') format('truetype');}
+html,
+body{font-family:'HelveticaNeue Light';font-size:16px;line-height:30px; background-color: #15141a;}
+p{font-family:'HelveticaNeue Light';}
+a{cursor:pointer;}
+a:hover{text-decoration:none;color: #00bef8;}
+
+
+p.txtGray {
+    font-size: 1.4rem;
+}
+.txtGray {
+    color: rgb(255 255 255 / 66%);
+    font-family: 'HelveticaNeue Thin';
+    letter-spacing: 1px;
+}
+.input-group .form-control, .input-group-text, .form-group input, .form-group textarea, .form-group select {
+    background: rgb(5 130 194 / 16%);
+    border: 1px solid #0582c2;
+    font-family: 'Roboto-Regular';
+}
+.input-group .form-control{
+    border-right: none;
+    color: #ffffff;
+}
+.input-group {
+    width: 25%;
+}
+.input-group-text{
+   border-left: none;
+}
+.input-group-append {
+    margin-left: 0;
+}
+.input-group-append:focus{
+    margin-left: 0;
+}
+.form-control:focus {
+    color: #ffffff;
+    background-color: rgb(5 130 194 / 16%); 
+    outline: 0;
+}
+.form-group {
+    margin-bottom: 0.5rem;
+}
+label.form-check-label {
+    color: #0582c2;
+    font-size: 1.2rem;
+}
+.form-control, .form-group input, .form-group textarea, .form-group select::placeholder{
+    color: #a1a0a5;
+}
+button.btn.btn-primary {
+    border-radius: 30px;
+    padding: 5px 20px;
+    background-color: #0582c2;
+    border-color: #0582c2;
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.Registerline {
+    border-right: 1px solid #0582c2;
+    padding: 10rem 0 10rem 0;
+}
+label{
+    font-family: 'Roboto-Regular'; 
+}
+.Bluetxt {
+    color: #0582c2;
+}
+p.PtxtGray.Dhead {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+.PtxtGray {
+    color: #a1a0a5;
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    line-height: 1.8;
+}
+section.Midsec {
+    padding: 5rem 0 0 0;
+}
